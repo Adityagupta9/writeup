@@ -1,0 +1,251 @@
+body {
+  margin: 0px 0px;
+  padding: 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav {
+  color: #b0b0b0;
+  list-style: none;
+  text-decoration: none;
+  padding: 15px;
+  transition: 0.2s;
+  font-size: 20px;
+}
+
+.nav:hover {
+  color: #d6d6d6;
+
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+  display: inline;
+  padding: 5px;
+
+}
+
+.navbar {
+  background-color: #0f172a;
+  padding: 14px 8px;
+  margin-bottom: 5px;
+}
+
+.but {
+  display: flex;
+  background-color: #03110d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 40px;
+  margin: 20px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 42%;
+  top: 100px;
+  border-radius: 15px;
+  transition: 0.1s;
+}
+
+.but:hover {
+  background-color: #243660;
+  transform: scale(1.02);
+}
+
+.head {
+  position: relative;
+  left: 45%;
+  margin-top: 15px;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  width: 140px;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 576px) {
+  body {
+    margin: 0px 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .nav {
+    color: #a8a8a8;
+    list-style: none;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 15px;
+    transition: 0.2s;
+  }
+
+  .nav:hover {
+    color: #d6d6d6;
+
+  }
+
+  li {
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    padding: 5px;
+
+  }
+
+  .navbar {
+    background-color: #0f172a;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+
+  .but {
+    display: flex;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 40px;
+    margin: 20px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 65px;
+    top: 100px;
+    border-radius: 15px;
+    transition: 0.1s;
+  }
+
+  .but:hover {
+    background-color: #243660;
+    transform: scale(1.02);
+  }
+
+  .head {
+    position: relative;
+    left: 120px;
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    width: 140px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;body {
+      background-color: #0f172a;
+    }
+    
+    .head {
+      background-color: #000000;
+      color: white;
+      position: relative;
+      left: 45%;
+      margin: 10px 0px;
+      font-size: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      border-radius: 15px;
+      box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+      width: 140px;
+      justify-content: center;
+      align-items: center;
+      padding: 15px;
+      text-align: center;
+    }
+    
+    .pic {
+      height: 1000px;
+      width: 807px;
+      margin: 5px;
+      border-radius: 15px;
+      position: relative;
+      left: 15px;
+      box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .pic1 {
+      height: 0px;
+      width: 0px;
+    }
+    
+    #downloadButton {
+      padding: 8px 12px;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 15px;
+      position: relative;
+      left: 20px;
+      transition: 0.1s;
+    }
+    
+    #downloadButton:hover {
+      background-color: #636363;
+    }
+    
+    @media only screen and (max-width: 576px) {
+      body {
+        background-color: #0f172a;
+      }
+    
+      .head {
+        background-color: #000000;
+        color: white;
+        position: relative;
+        left: 30%;
+        margin: 10px 0px;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-radius: 15px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+        width: 140px;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        text-align: center;
+      }
+    
+      .pic {
+        height: 460px;
+        width: 345px;
+        margin: 5px;
+        border-radius: 15px;
+        position: relative;
+        left: 15px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+      }
+    
+      .pic1 {
+        height: 0px;
+        width: 0px;
+      }
+    
+      #downloadButton {
+        padding: 8px 12px;
+        background-color: #d4d4d4;
+        color: #161737;
+        border: none;
+        border-radius: 15px;
+        position: relative;
+        left: 20px;
+        transition: 0.1s;
+      }
+    }
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
