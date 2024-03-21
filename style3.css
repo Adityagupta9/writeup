@@ -1,0 +1,41 @@
+html,
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: black;
+  color: rgb(0, 255, 0);
+  margin: 10px 10px;
+}
+#rights{
+  margin:10px 0px;
+}
+#quant{
+  background-color: black;
+  border-style: none;
+  color:rgb(0, 255, 0);
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+#quant::-webkit-inner-spin-button,
+#quant::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#quant:hover{
+  background-color: black;
+  border-style: none;
+  color:rgb(0, 255, 0);
+}
+.but{
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(0,255,0);
+  border: none;
+  border-style: none;
+}
+.but:hover{
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-style: none;
+  color: rgb(0,255,0);
+}
