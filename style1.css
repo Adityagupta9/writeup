@@ -55,7 +55,7 @@ body {
   width: 0px;
 }
 
-#downloadButton {
+.downloadButton {
   padding: 8px 12px;
   background-color: black;
   color: white;
