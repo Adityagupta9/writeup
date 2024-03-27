@@ -2,7 +2,8 @@ document.getElementById('downloadButton').addEventListener('click', function () 
   // Define the URLs of the images you want to download
   var imageUrls = [
       "bdc4.jpg",
-      "bdc5.jpg"
+      "bdc5.jpg",
+      "bdc9.jpg"
   ];
 
   // Create an anchor element for each image
