@@ -98,8 +98,52 @@ a {
   padding: 3px;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
 }
-
+.tail{
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  margin-top: 15px;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  width: 140px;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  text-align: center;
+}
+.bottom{
+  position: absolute;
+  top: 75%;
+  left: 45%;
+}
+.but2{
+  position: absolute;
+  width: 150px;
+  bottom: -120px;
+  right: -160px;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  transition: 0.2s;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.but2:hover{
+  background-color: rgb(196, 196, 196);
+  color: black;
+}
 @media only screen and (max-width: 576px) {
+  .but2{
+    bottom: -120px;
+    right: -123px;
+    width: 150px;
+  }
+  .tail{
+    left: -33px;
+  }
   body {
     margin: 0px 0px;
     padding: 0px;
