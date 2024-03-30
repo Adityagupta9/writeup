@@ -167,7 +167,17 @@ a {
     width: 0;
   }
 }
-
+@media only screen and (max-width: 480px) {
+  .but2{
+    bottom: -30px;
+    right: -100px;
+    width: 150px;
+  }
+  .tail{
+    top: -35px;
+    left: -59px;
+  }
+}
 
 @media only screen and (max-width: 576px) {
   .welcome-text{
@@ -177,12 +187,12 @@ a {
     font-size: 50px ;
   }
   .but2{
-    bottom: -30px;
+    bottom: -110px;
     right: -100px;
     width: 150px;
   }
   .tail{
-    top: -105px;
+    top: -15px;
     left: -59px;
   }
   body {
