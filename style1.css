@@ -54,8 +54,7 @@ body {
   height: 0px;
   width: 0px;
 }
-
-.downloadButton {
+.but2{
   padding: 8px 12px;
   background-color: black;
   color: white;
@@ -64,6 +63,22 @@ body {
   position: relative;
   left: 20px;
   transition: 0.1s;
+  border-radius: 20px;
+}
+.but2:hover{
+  background-color: rgb(196, 196, 196);
+  color: black;
+}
+#downloadButton{
+  padding: 8px 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  position: relative;
+  left: 20px;
+  transition: 0.1s;
+  border-radius: 20px;
 }
 
 #downloadButton:hover {
@@ -113,6 +128,7 @@ body {
   }
 
   #downloadButton {
+    border-radius: 15px;
     padding: 8px 12px;
     background-color: #d4d4d4;
     color: #161737;
@@ -121,5 +137,6 @@ body {
     position: relative;
     left: 20px;
     transition: 0.1s;
+    border-radius: 20px;
   }
 }
