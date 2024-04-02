@@ -25,3 +25,30 @@ downloadButtons.forEach(function(button) {
         document.body.removeChild(downloadLink);
     });
 });
+document.addEventListener("DOMContentLoaded", function() {
+    const button = document.querySelector(".but3");
+    button.addEventListener("click", function() {
+        // Replace this with the URL of your PDF file
+        const pdfUrl = "daa09.pdf";
+        
+        // Create an anchor element to trigger the download
+        const anchor = document.createElement("a");
+        anchor.href = pdfUrl;
+        anchor.download = "daa09.pdf";
+        anchor.click();
+    });
+  });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    const button = document.querySelector(".but4");
+    button.addEventListener("click", function() {
+        // Replace this with the URL of your PDF file
+        const pdfUrl = "daa09.pdf";
+        
+        // Create an anchor element to trigger the download
+        const anchor = document.createElement("a");
+        anchor.href = pdfUrl;
+        anchor.download = "daa10.pdf";
+        anchor.click();
+    });
+  });
