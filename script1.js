@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const button = document.querySelector(".but4");
     button.addEventListener("click", function() {
         // Replace this with the URL of your PDF file
-        const pdfUrl = "daa09.pdf";
+        const pdfUrl = "daa10.pdf";
         
         // Create an anchor element to trigger the download
         const anchor = document.createElement("a");
